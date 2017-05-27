@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="kuis.kuissiapatahu.HomeActivity"
+    android:background="@drawable/back2"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/score"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/background_light"
+        />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/question"
+        android:gravity="center"
+        android:textColor="@android:color/background_light"
+        android:layout_marginBottom="20dp"
+        android:background="@color/BackText" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/answer1"
+        android:background="@color/Button"
+        />
+
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/answer2"
+        android:background="@color/Button"
+        />
+
+
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/answer3"
+        android:background="@color/Button"
+        />
+
+
+    <Button
+        android:text="Button"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/answer4"
+        android:background="@color/Button" />
+
+</LinearLayout>
